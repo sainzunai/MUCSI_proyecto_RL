@@ -5,8 +5,8 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.evaluation import evaluate_policy
 
 ALGORTIHM="PPO_TEST"
-models_dir = "Project_models/" + ALGORTIHM
-log_dir = "Project_logs"
+models_dir = "models/" + ALGORTIHM
+log_dir = "logs/"
 
 
 
