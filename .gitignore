@@ -23,3 +23,8 @@ ENV/
 # RL Models and Tensorboard logs
 models/*
 logs/*
+
+
+# exception to the rule
+!models/.gitkeep 
+!logs/.gitkeep 

@@ -13,8 +13,7 @@ from stable_baselines3.common.evaluation import evaluate_policy
 from stable_baselines3.common.env_util import make_vec_env
 
 # Create environment
-#env_str = "MiniGrid-Fetch-5x5-N2-v0"
-#env_str = "MiniGrid-Unlock-v0"
+
 env_str = "MiniGrid-MultiRoom-N6-v0"    # Prueba a meter 6 rooms sin entrenamiento previo
 
 def create_env():
